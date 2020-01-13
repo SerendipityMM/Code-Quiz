@@ -1,4 +1,13 @@
 # Code-Quiz
+<<<<<<< HEAD
+
+
+##JavaScript Quiz 
+
+This project presents a timed code quiz with multiple-choice questions. The application will run in the browser and feature dynamically updated HTML and CSS powered by a JavaScript code. It also features a clean user interface and responsiveness, ensuring that it adapts to multiple screen sizes.
+
+![Image description](Intro.png)
+=======
 ## JavaScript Quiz 
 This project presents a timed code quiz with multiple-choice questions. 
 
@@ -23,3 +32,4 @@ Final promt to submit user`s name.
 
 ## Build with
 Visual Studio Code
+>>>>>>> ca71bf05ec513e59901a57311acb4d2f55c9e8e4

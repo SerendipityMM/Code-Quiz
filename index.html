@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Google Fonts-->
+       <link href="https://fonts.googleapis.com/css?family=Cuprum&display=swap" rel="stylesheet">
+        <!-- Meta tags-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!--CSS Link-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!--jQuery Link-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <title>Quiz Time</title>
     </head>
 
     <body>
-  
-        <script src="script.js"></script>
-      </body>
+        <!-- Background Image-->
+      <div class="bg">
+       
+        <div id="quizContainer" class="container">
+        <div class = "title">JavaScript Quiz</div>
+        <div id="question" class = "question"></div>
+        <label class ="option"><input type="radio" name="option" value="1" /> <span id="opt1"></span> </label>
+        <label class ="option"><input type="radio" name="option" value="2" /> <span id="opt2"></span> </label>
+        <label class ="option"><input type="radio" name="option" value="3" /> <span id="opt3"></span> </label>
+        <label class ="option"><input type="radio" name="option" value="4" /> <span id="opt4"></span> </label>
+        <button id="startButton" class="start-btn" onclick="run_clock('clockdiv',deadline);">Start</button>
+        <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Question</button>
+        </div>
+        <div id="result" class="container result" style="display: none;"> </div>
+        
+        <img src="time-left.png">
+        <div id="clockdiv"> </div>
+      </div>
       
 
-
-
-
-
-
+      <!-- JS Links-->
+      <script src="script.js"> </script>
+      <script src="quiz.js"> </script>
+     
+      </body>
 </html>
