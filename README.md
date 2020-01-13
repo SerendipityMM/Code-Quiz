@@ -1,5 +1,5 @@
 # Code-Quiz
-<<<<<<< HEAD
+
 
 
 ##JavaScript Quiz 
@@ -32,4 +32,4 @@ Final promt to submit user`s name.
 
 ## Build with
 Visual Studio Code
->>>>>>> ca71bf05ec513e59901a57311acb4d2f55c9e8e4
+
